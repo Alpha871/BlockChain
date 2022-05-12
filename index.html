@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="panel">
+          <button id="btn-next">Sonraki bloğu Üret</button>
+      </div>
+      <div id="blockchain">
+      </div>
+      <div id="block">
+        <h1>
+          Hash : <span id="blockhash"></span>
+        </h1>
+        <table>
+          <tr>
+            <td>Önceki Hash</td>
+            <td id="prevhash"></td>
+          </tr>
+          <tr>
+            <td>Tarih</td>
+            <td id="date"></td>
+          </tr>
+          <tr>
+            <td>Transactions</td>
+            <td id="trans"></td>
+          </tr>
+        </table>
+      </div>
+
+   <script src="index.js"> </script>
+  
+</body>
+</html>
